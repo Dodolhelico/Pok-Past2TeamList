@@ -5,7 +5,7 @@ public class SheetPokemon {
     private boolean gmax;
     private String ability;
     private int level;
-    private int[] stats = new int[6];
+    private int[] stats;
     private String[] moves;
 
     public String getName() {
