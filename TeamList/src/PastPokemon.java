@@ -2,6 +2,8 @@ public class PastPokemon {
     private String name;
     private String item;
     private String ability;
+
+    private boolean gmax;
     private int level;
     private int[] evs;
     private int[] ivs;
@@ -18,6 +20,10 @@ public class PastPokemon {
 
     public void setAbility(String ability) {
         this.ability = ability;
+    }
+
+    public void setGmax(boolean gmax) {
+        this.gmax = gmax;
     }
 
     public void setLevel(int level) {
@@ -50,6 +56,10 @@ public class PastPokemon {
 
     public String getAbility() {
         return ability;
+    }
+
+    public boolean isGmax() {
+        return gmax;
     }
 
     public int getLevel() {
